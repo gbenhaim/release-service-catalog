@@ -34,7 +34,7 @@ spec:
     - name: enterpriseContractPublicKey
       type: string
       description: Public key to use for validation by the enterprise contract
-      default: k8s://openshift-pipelines/public-key
+      default: k8s://tekton-pipelines/public-key
     - name: postCleanUp
       type: string
       description: Cleans up workspace after finishing executing the pipeline
